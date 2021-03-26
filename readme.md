@@ -2,16 +2,20 @@
 
 ## install
 
-1. install [espanso](https://espanso.org)
-2. get espanso package path: `espanso path | grep Packages`
-3. go to espanso package path: `cd [path]`
-4. clone this repo: `git clone https://github.com/sayomelu/espanso-search`
-5. restart espanso: `espanso restart`
+install [espanso](https://espanso.org)
+
+```sh
+cd "$(espanso path | grep Packages | awk -F ': ' '{print $NF}')"
+git clone https://github.com/sayomelu/espanso-search`
+espanso restart
+```
 
 ## update
 
-1. go to espanso package path: `cd [path]/espanso-search`
-2. update: `git pull`
+```sh
+cd "$(espanso path | grep Packages | awk -F ': ' '{print $NF}')"
+git pull
+```
 
 ## usage
 
