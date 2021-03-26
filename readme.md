@@ -12,7 +12,7 @@ git clone https://github.com/sayomelu/espanso-search`
 ## update
 
 ```sh
-cd "$(espanso path | grep Packages | awk -F ': ' '{print $NF}')"
+cd "$(espanso path | grep Packages | awk -F ': ' '{print $NF}')/espanso-search"
 git pull
 ```
 
