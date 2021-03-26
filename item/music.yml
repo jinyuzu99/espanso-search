@@ -1,0 +1,8 @@
+name: music
+parent: search
+matches:
+  - trigger: ':am '
+    replace: 'https://music.apple.com/search?term='
+
+  - trigger: ':s '
+    replace: 'https://open.spotify.com/search/'

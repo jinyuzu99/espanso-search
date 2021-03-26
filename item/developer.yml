@@ -1,0 +1,8 @@
+name: developer
+parent: search
+matches:
+  - trigger: ':dh '
+    replace: https://hub.docker.com/search?q=
+
+  - trigger: ':gh '
+    replace: https://github.com/search?q=

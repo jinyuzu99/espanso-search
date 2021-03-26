@@ -1,0 +1,5 @@
+name: game
+parent: search
+matches:
+  - trigger: ':st '
+    replace: 'https://store.steampowered.com/search/?term='

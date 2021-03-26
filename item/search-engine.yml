@@ -1,0 +1,17 @@
+name: search-engine
+parent: search
+matches:
+  - trigger: ':b '
+    replace: https://bing.com/search?q=
+
+  - trigger: ':d '
+    replace: https://duckduckgo.com/?q=
+
+  - trigger: ':e '
+    replace: https://ecosia.org/search?q=
+
+  - trigger: ':g '
+    replace: https://google.com/search?q=
+
+  - trigger: ':gl '
+    replace: https://www.google.com/search?btnI&q=

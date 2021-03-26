@@ -1,0 +1,20 @@
+name: wiki
+parent: search
+matches:
+  - trigger: ':ep '
+    replace: 'https://emojipedia.org/'
+
+  - trigger: ':aw '
+    replace: 'https://wiki.archlinux.org/?search='
+
+  - trigger: ':we '
+    replace: 'https://en.wikipedia.org/w/?search='
+
+  - trigger: ':wj '
+    replace: 'https://ja.wikipedia.org/w/?search='
+
+  - trigger: ':wz '
+    replace: 'https://zh.wikipedia.org/w/?search='
+
+  - trigger: ':mg '
+    replace: 'https://zh.moegirl.org/index.php?search='

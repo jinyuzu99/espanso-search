@@ -1,0 +1,11 @@
+name: image
+parent: search
+matches:
+  - trigger: ':eh '
+    replace: 'https://e-hentai.org/?f_search='
+
+  - trigger: ':pi '
+    replace: 'https://pixiv.net/tags/'
+
+  - trigger: ':us '
+    replace: 'https://unsplash.com/s/photos/'

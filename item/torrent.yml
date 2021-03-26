@@ -1,0 +1,17 @@
+name: torrent
+parent: search
+matches:
+  - trigger: ':nh '
+    replace: 'https://nhentai.net/search/?q='
+
+  - trigger: ':np '
+    replace: 'https://nyaa.net/search?q='
+
+  - trigger: ':nps '
+    replace: 'https://sukebei.nyaa.net/search?q='
+
+  - trigger: ':ns '
+    replace: 'https://nyaa.si/?q='
+
+  - trigger: ':nss '
+    replace: 'https://sukebei.nyaa.si/?q='

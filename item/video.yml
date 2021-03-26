@@ -1,0 +1,11 @@
+name: video
+parent: search
+matches:
+  - trigger: ':bl '
+    replace: 'https://search.bilibili.com/all?keyword='
+
+  - trigger: ':ph '
+    replace: 'https://www.pornhub.com/video/search?search='
+
+  - trigger: ':y '
+    replace: 'https://youtube.com/results?q='

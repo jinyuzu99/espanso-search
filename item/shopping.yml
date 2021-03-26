@@ -1,0 +1,8 @@
+name: shopping
+parent: search
+matches:
+  - trigger: ':a '
+    replace: 'https://amazon.com/s?k='
+
+  - trigger: ':aj '
+    replace: 'https://amazon.co.jp/s?k='
