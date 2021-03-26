@@ -7,7 +7,6 @@ install [espanso](https://espanso.org)
 ```sh
 cd "$(espanso path | grep Packages | awk -F ': ' '{print $NF}')"
 git clone https://github.com/sayomelu/espanso-search`
-espanso restart
 ```
 
 ## update
