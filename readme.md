@@ -5,7 +5,8 @@
 1. install [espanso](https://espanso.org)
 2. get espanso package path: `espanso path | grep Packages`
 3. go to espanso package path: `cd [path]`
-4. clone this repo `git clone https://github.com/sayomelu/espanso-search`
+4. clone this repo: `git clone https://github.com/sayomelu/espanso-search`
+5. restart espanso: `espanso restart`
 
 ## update
 
@@ -14,4 +15,4 @@
 
 ## usage
 
-all search trigger can be found at [search/item](https://github.com/sayomelu/espanso-search/search/item)
+all search trigger can be found at [espanso-search/item](./item)
