@@ -2,10 +2,9 @@ name: social
 parent: search
 matches:
   - trigger: ':rd '
-    replace: https://reddit.com/search/?q=
+    replace: 'https://reddit.com/search/?q='
 
   - trigger: ':tw '
-    replace: https://twitter.com/search?q=
-
+    replace: 'https://twitter.com/search?q='
   - trigger: ':zh '
-    replace: https://zhihu.com/search?q=
+    replace: 'https://zhihu.com/search?q='
